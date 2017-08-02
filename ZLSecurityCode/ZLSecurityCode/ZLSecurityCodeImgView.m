@@ -90,6 +90,8 @@
         
         [_bgView addSubview:label];
     }
+    
+    // 添加干扰线于背景
     for (int i = 0; i<10; i++) {
         
         UIBezierPath *path = [UIBezierPath bezierPath];
