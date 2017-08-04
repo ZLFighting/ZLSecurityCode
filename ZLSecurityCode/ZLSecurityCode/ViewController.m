@@ -54,11 +54,13 @@
     
     // 验证码背景宽高可根据需求自定义
     _codeImgView = [[ZLSecurityCodeImgView alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.codeField.frame), 200, 100, 40)];
+    
+    __weak __typeof(self) weakSelf = self;
     _codeImgView.bolck = ^(NSString *imageCodeStr){ // 根据需求是否使用验证码值
         // 打印生成的验证码
         NSLog(@"imageCodeStr = %@", imageCodeStr);
         
-        self.imageCodeStr = imageCodeStr;
+        weakSelf.imageCodeStr = imageCodeStr;
     };
     // 验证码字符是否需要斜着
     _codeImgView.isRotation = YES;
