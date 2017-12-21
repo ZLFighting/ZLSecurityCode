@@ -151,9 +151,10 @@ return YES;
 }
 ```
 这时候测试一下效果 :
+
 ![验证码图.gif](https://github.com/ZLFighting/ZLSecurityCode/blob/master/ZLSecurityCode/验证码图.gif)
 
 
-思路详情请移步技术文章:[iOS-仿智联字符图片验证码](http://www.jianshu.com/p/883faf8fe520)
+思路详情请移步技术文章:[iOS-仿智联字符图片验证码](http://blog.csdn.net/smilezhangli/article/details/78548435)
 
 您的支持是作为程序媛的我最大的动力, 如果觉得对你有帮助请送个Star吧,谢谢啦
